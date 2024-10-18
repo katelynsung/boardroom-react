@@ -1,0 +1,33 @@
+/* body {
+    --bs-light-rgb: 146,146,145;
+    background: url("https://courses.ics.hawaii.edu/ics314f24/morea/ui-frameworks/wod-boardroom-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+} */
+
+.navbar {
+    --bs-navbar-brand-color: white;
+}
+
+footer {
+    color: black;
+}
+
+body {
+    --bs-light-rgb: 146,146,145;
+    background: url("https://courses.ics.hawaii.edu/ics314f24/morea/ui-frameworks/wod-boardroom-background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    /* margin: 0;
+    padding: 0; */
+    min-height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.center-image-container {
+    margin-top: 100px; /* Adjust this value as needed */
+    padding-top: 20px;
+}
+.underline {
+    text-decoration: underline !important;
+}
