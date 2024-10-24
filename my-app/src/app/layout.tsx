@@ -31,3 +31,6 @@ export default function RootLayout({
     </html>
   );
 }
+{/* <html lang="en" className="h-100">
+  <body className={`${inter.className} h-100`}>{children}</body>
+</html> */}

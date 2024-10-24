@@ -43,13 +43,18 @@ const TopMenu = () => (
 
 const CenterImage = () => (
 <Row className ="body">
-    <Col className="d-flex justify-content-center">
-    <Image
+    <Col className="d-flex justify-content-center" >
+    {/* <Image
     src ="https://courses.ics.hawaii.edu/ics314f24/morea/ui-frameworks/wod-boardroom-logo.png"
     alt = "Main Image"
     // width = { 5000 }
     height = "500px"
-    />
+    /> */}
+    <p>
+      
+      hello this is the websbsuetbgiua
+      
+    </p>
     </Col>
   </Row>
 );
@@ -112,7 +117,7 @@ const BottomFooter = () => (
           <div></div>
           <div></div>
         </Col>
-        <Col xs={3}>
+        <Col xs={3} className ="justify-content-end">
           <h5><strong>THE BOARDROOM</strong></h5>
           <div>44 Kainehe St</div>
           <div>Kailua HI 96734</div>
